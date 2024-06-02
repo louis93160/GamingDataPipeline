@@ -4,7 +4,7 @@
 source ./airflow_venv/bin/activate
 
 # Définir le répertoire Airflow
-export AIRFLOW_HOME=~/GamingDataPipeline
+export AIRFLOW_HOME=$(pwd)
 
 # Initialiser la base de données Airflow
 airflow db init
