@@ -101,4 +101,7 @@ def fetch_and_store_top_games():
     cur.close()
     conn.close()
 
+if __name__ == "__main__":
+    fetch_and_store_top_games()
+
 
