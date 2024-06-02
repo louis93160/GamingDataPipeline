@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/zsh
 
 # Activer l'environnement virtuel
-source ../airflow_venv/bin/activate
+source ./airflow_venv/bin/activate
 
 # Définir le répertoire Airflow
 export AIRFLOW_HOME=~/GamingDataPipeline
