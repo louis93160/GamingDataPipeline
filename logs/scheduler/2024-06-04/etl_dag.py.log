@@ -1,0 +1,234 @@
+[2024-06-05T00:55:42.342+0200] {processor.py:161} INFO - Started process (PID=20806) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T00:55:42.344+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T00:55:42.348+0200] {logging_mixin.py:188} INFO - [2024-06-05T00:55:42.347+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T00:55:42.385+0200] {logging_mixin.py:188} INFO - [2024-06-05T00:55:42.383+0200] {dagbag.py:350} ERROR - Failed to import: /home/louis/GamingDataPipeline/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/louis/GamingDataPipeline/dags/etl_dag.py", line 10, in <module>
+    from pipeline_etl import fetch_and_store_top_games
+  File "/home/louis/GamingDataPipeline/scripts/pipeline_etl.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-06-05T00:55:42.386+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T00:55:42.506+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.175 seconds
+[2024-06-05T00:56:13.380+0200] {processor.py:161} INFO - Started process (PID=21211) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T00:56:13.396+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T00:56:13.426+0200] {logging_mixin.py:188} INFO - [2024-06-05T00:56:13.422+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T00:56:13.501+0200] {logging_mixin.py:188} INFO - [2024-06-05T00:56:13.486+0200] {dagbag.py:350} ERROR - Failed to import: /home/louis/GamingDataPipeline/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/louis/GamingDataPipeline/dags/etl_dag.py", line 10, in <module>
+    from pipeline_etl import fetch_and_store_top_games
+  File "/home/louis/GamingDataPipeline/scripts/pipeline_etl.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-06-05T00:56:13.506+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T00:56:13.664+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.375 seconds
+[2024-06-05T00:56:44.424+0200] {processor.py:161} INFO - Started process (PID=21606) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T00:56:44.456+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T00:56:44.499+0200] {logging_mixin.py:188} INFO - [2024-06-05T00:56:44.490+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T00:56:44.749+0200] {logging_mixin.py:188} INFO - [2024-06-05T00:56:44.738+0200] {dagbag.py:350} ERROR - Failed to import: /home/louis/GamingDataPipeline/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/louis/GamingDataPipeline/dags/etl_dag.py", line 10, in <module>
+    from pipeline_etl import fetch_and_store_top_games
+  File "/home/louis/GamingDataPipeline/scripts/pipeline_etl.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-06-05T00:56:44.756+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T00:56:45.109+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.889 seconds
+[2024-06-05T00:57:15.485+0200] {processor.py:161} INFO - Started process (PID=21973) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T00:57:15.490+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T00:57:15.497+0200] {logging_mixin.py:188} INFO - [2024-06-05T00:57:15.496+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T00:57:15.547+0200] {logging_mixin.py:188} INFO - [2024-06-05T00:57:15.544+0200] {dagbag.py:350} ERROR - Failed to import: /home/louis/GamingDataPipeline/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/louis/GamingDataPipeline/dags/etl_dag.py", line 10, in <module>
+    from pipeline_etl import fetch_and_store_top_games
+  File "/home/louis/GamingDataPipeline/scripts/pipeline_etl.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-06-05T00:57:15.548+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T00:57:15.699+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.245 seconds
+[2024-06-05T00:57:45.992+0200] {processor.py:161} INFO - Started process (PID=22147) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T00:57:45.996+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T00:57:46.003+0200] {logging_mixin.py:188} INFO - [2024-06-05T00:57:46.001+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T00:57:46.033+0200] {logging_mixin.py:188} INFO - [2024-06-05T00:57:46.031+0200] {dagbag.py:350} ERROR - Failed to import: /home/louis/GamingDataPipeline/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/louis/GamingDataPipeline/dags/etl_dag.py", line 10, in <module>
+    from pipeline_etl import fetch_and_store_top_games
+  File "/home/louis/GamingDataPipeline/scripts/pipeline_etl.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-06-05T00:57:46.034+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T00:57:46.098+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.126 seconds
+[2024-06-05T01:04:48.124+0200] {processor.py:161} INFO - Started process (PID=25175) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:04:48.145+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T01:04:48.164+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:04:48.162+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:04:48.291+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:04:48.286+0200] {dagbag.py:350} ERROR - Failed to import: /home/louis/GamingDataPipeline/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/louis/GamingDataPipeline/dags/etl_dag.py", line 10, in <module>
+    from pipeline_etl import fetch_and_store_top_games
+  File "/home/louis/GamingDataPipeline/scripts/pipeline_etl.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-06-05T01:04:48.293+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:04:48.484+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.481 seconds
+[2024-06-05T01:05:19.497+0200] {processor.py:161} INFO - Started process (PID=25615) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:05:19.502+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T01:05:19.508+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:05:19.507+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:05:19.620+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:05:19.606+0200] {dagbag.py:350} ERROR - Failed to import: /home/louis/GamingDataPipeline/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/louis/GamingDataPipeline/dags/etl_dag.py", line 10, in <module>
+    from pipeline_etl import fetch_and_store_top_games
+  File "/home/louis/GamingDataPipeline/scripts/pipeline_etl.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-06-05T01:05:19.622+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:05:19.784+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.316 seconds
+[2024-06-05T01:05:51.348+0200] {processor.py:161} INFO - Started process (PID=25838) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:05:51.365+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T01:05:51.370+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:05:51.369+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:05:51.402+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:05:51.397+0200] {dagbag.py:350} ERROR - Failed to import: /home/louis/GamingDataPipeline/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/louis/GamingDataPipeline/dags/etl_dag.py", line 10, in <module>
+    from pipeline_etl import fetch_and_store_top_games
+  File "/home/louis/GamingDataPipeline/scripts/pipeline_etl.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-06-05T01:05:51.403+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:05:51.707+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.386 seconds
+[2024-06-05T01:06:22.083+0200] {processor.py:161} INFO - Started process (PID=26003) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:06:22.088+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T01:06:22.099+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:06:22.096+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:06:22.187+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:06:22.181+0200] {dagbag.py:350} ERROR - Failed to import: /home/louis/GamingDataPipeline/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/louis/GamingDataPipeline/dags/etl_dag.py", line 10, in <module>
+    from pipeline_etl import fetch_and_store_top_games
+  File "/home/louis/GamingDataPipeline/scripts/pipeline_etl.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2024-06-05T01:06:22.189+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:06:22.438+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.405 seconds
+[2024-06-05T01:11:06.312+0200] {processor.py:161} INFO - Started process (PID=27947) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:11:06.314+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T01:11:06.346+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:11:06.345+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:11:06.463+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:11:06.462+0200] {dagbag.py:350} ERROR - Failed to import: /home/louis/GamingDataPipeline/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/louis/GamingDataPipeline/dags/etl_dag.py", line 10, in <module>
+    from pipeline_etl import fetch_and_store_top_games
+  File "/home/louis/GamingDataPipeline/scripts/pipeline_etl.py", line 4, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+[2024-06-05T01:11:06.463+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:11:06.491+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.192 seconds
+[2024-06-05T01:11:37.557+0200] {processor.py:161} INFO - Started process (PID=28227) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:11:37.559+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T01:11:37.560+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:11:37.560+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:11:37.626+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:11:37.625+0200] {dagbag.py:350} ERROR - Failed to import: /home/louis/GamingDataPipeline/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/louis/GamingDataPipeline/dags/etl_dag.py", line 10, in <module>
+    from pipeline_etl import fetch_and_store_top_games
+  File "/home/louis/GamingDataPipeline/scripts/pipeline_etl.py", line 4, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+[2024-06-05T01:11:37.627+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:11:37.657+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.107 seconds
+[2024-06-05T01:12:08.511+0200] {processor.py:161} INFO - Started process (PID=28499) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:12:08.515+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T01:12:08.520+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:12:08.519+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:12:08.648+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:12:08.647+0200] {dagbag.py:350} ERROR - Failed to import: /home/louis/GamingDataPipeline/dags/etl_dag.py
+Traceback (most recent call last):
+  File "/home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/louis/GamingDataPipeline/dags/etl_dag.py", line 10, in <module>
+    from pipeline_etl import fetch_and_store_top_games
+  File "/home/louis/GamingDataPipeline/scripts/pipeline_etl.py", line 4, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+[2024-06-05T01:12:08.649+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:12:08.695+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.202 seconds
+[2024-06-05T01:14:46.688+0200] {processor.py:161} INFO - Started process (PID=29859) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:14:46.691+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T01:14:46.696+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:14:46.695+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:14:46.850+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:14:46.865+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:14:46.864+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T01:14:46.905+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:14:46.904+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-05T01:14:46.980+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.305 seconds
+[2024-06-05T01:15:18.010+0200] {processor.py:161} INFO - Started process (PID=30128) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:15:18.012+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T01:15:18.014+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:15:18.014+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:15:18.088+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:15:18.223+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:15:18.222+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T01:15:18.375+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:15:18.375+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-05T01:15:18.442+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.439 seconds
+[2024-06-05T01:15:48.564+0200] {processor.py:161} INFO - Started process (PID=30300) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:15:48.567+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T01:15:48.572+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:15:48.571+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:15:48.725+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:15:48.785+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:15:48.784+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T01:15:48.853+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:15:48.853+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-05T01:15:48.947+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.398 seconds
+[2024-06-05T01:16:19.209+0200] {processor.py:161} INFO - Started process (PID=30712) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:16:19.211+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T01:16:19.213+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:16:19.213+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:16:19.285+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:16:19.310+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:16:19.309+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T01:16:19.334+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:16:19.334+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-05T01:16:19.372+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.172 seconds
+[2024-06-05T01:16:49.897+0200] {processor.py:161} INFO - Started process (PID=31035) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:16:49.899+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T01:16:49.902+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:16:49.902+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:16:50.017+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:16:50.071+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:16:50.071+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T01:16:50.122+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:16:50.121+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-05T01:16:50.186+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.303 seconds
+[2024-06-05T01:17:20.793+0200] {processor.py:161} INFO - Started process (PID=31409) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:17:20.803+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-05T01:17:20.808+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:17:20.807+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:17:21.089+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-05T01:17:21.221+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:17:21.220+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T01:17:21.336+0200] {logging_mixin.py:188} INFO - [2024-06-05T01:17:21.335+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2024-06-05T01:17:21.449+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.678 seconds

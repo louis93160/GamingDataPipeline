@@ -1,12 +1,13 @@
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from datetime import datetime, timedelta
-from fetch_and_store_top_games import fetch_and_store_top_games
 import sys
 import os
 
 # Ajout du chemin du répertoire `scripts` au `PYTHONPATH`
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../scripts')))
+
+from pipeline_etl import fetch_and_store_top_games 
 
 # Configuration du DAG
 default_args = {
