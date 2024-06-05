@@ -63,9 +63,8 @@ GamingDataPipeline/
 ├── dags/
 │   └── etl_dag.py          Fichier python contenant le DAG
 ├── scripts/
-│   └── etl_script.py       Script Python du Pipeline
+│   └── pipeline_etl.py       Script Python du Pipeline
 ├── logs/                   Répertoire pour les logs Airflow
-├── plugins/                Répertoire pour les plugins Airflow
 ├── config/
 │   └── setup_airflow.sh    Script shell pour configurer et démarrer Airflow
 └── README.md               Documentation du projet
@@ -73,15 +72,13 @@ GamingDataPipeline/
 
 ### Scripts Principaux
 
-1. **Extraction des Données**:
-    - `extract_data.py`: Script pour extraire les données de la base MongoDB.
+1. **Extraction des données et transformation des données**:
+    - `pipeline_etl.py`: Script pour extraire les données de la base MongoDB, transformer les données puis les extraire dans le Data Warehouse PostgreSQL.
 
-2. **Transformation des Données**:
-    - `transform_data.py`: Script pour transformer et nettoyer les données extraites.
-    - Filtrage des avis des 6 derniers mois.
-    - Calcul des notes moyennes des jeux.
+2. **Planiffication du DAG Airflow**:
+    - `etl_dag.py`: Script pour planifier le DAG Airflow ainsi que la task python.
 
-3. **Chargement des Données**:
-    - `load_data.py`: Script pour charger les données transformées dans le Data Warehouse SQL.
+3. **Chargement des Données dans le Data Warehouse**:
+    - Chargement des données transformées dans le Data Warehouse SQL.
     - Gestion des doublons et remplacement des valeurs existantes.
 
