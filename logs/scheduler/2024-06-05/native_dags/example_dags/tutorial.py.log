@@ -1,0 +1,7 @@
+[2024-06-05T20:58:41.398+0200] {processor.py:161} INFO - Started process (PID=5491) to work on /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-05T20:58:41.400+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-06-05T20:58:41.404+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:58:41.403+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-05T20:58:41.416+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-06-05T20:58:41.425+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:58:41.425+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T20:58:41.474+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:58:41.473+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-06-04 00:00:00+00:00, run_after=2024-06-05 00:00:00+00:00
+[2024-06-05T20:58:41.534+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.159 seconds

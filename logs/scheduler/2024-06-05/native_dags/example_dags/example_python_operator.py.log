@@ -1,0 +1,8 @@
+[2024-06-05T20:59:05.674+0200] {processor.py:161} INFO - Started process (PID=5826) to work on /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-05T20:59:05.676+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-06-05T20:59:05.679+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:59:05.678+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-05T20:59:05.772+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:59:05.771+0200] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-06-05T20:59:05.772+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-06-05T20:59:05.858+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:59:05.858+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T20:59:05.867+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:59:05.866+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-06-05T20:59:05.910+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.248 seconds

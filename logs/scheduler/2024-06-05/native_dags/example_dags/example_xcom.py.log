@@ -1,0 +1,7 @@
+[2024-06-05T20:58:45.773+0200] {processor.py:161} INFO - Started process (PID=5574) to work on /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-06-05T20:58:45.774+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-06-05T20:58:45.777+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:58:45.776+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-06-05T20:58:45.789+0200] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-06-05T20:58:45.915+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:58:45.914+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T20:58:46.001+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:58:45.999+0200] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-06-05T20:58:46.145+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.381 seconds

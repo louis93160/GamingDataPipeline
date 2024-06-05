@@ -1,0 +1,7 @@
+[2024-06-05T20:58:51.654+0200] {processor.py:161} INFO - Started process (PID=5630) to work on /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2024-06-05T20:58:51.655+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2024-06-05T20:58:51.657+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:58:51.657+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2024-06-05T20:58:51.664+0200] {processor.py:840} INFO - DAG(s) 'example_trigger_controller_dag' retrieved from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2024-06-05T20:58:51.672+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:58:51.671+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T20:58:51.707+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:58:51.706+0200] {dag.py:3954} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-06-05T20:58:51.857+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.210 seconds

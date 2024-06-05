@@ -1,0 +1,5 @@
+[2024-06-05T20:58:33.861+0200] {processor.py:161} INFO - Started process (PID=5355) to work on /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-05T20:58:33.886+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-05T20:58:33.963+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:58:33.958+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-05T20:58:34.008+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-05T20:58:34.083+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.289 seconds

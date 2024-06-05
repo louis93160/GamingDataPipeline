@@ -62,46 +62,46 @@ def fetch_and_store_top_games():
     # Exécuter le pipeline d'agrégation
     result = list(collection.aggregate(pipeline))
 
-    #Connexion à PostgreSQL
-    conn = psycopg2.connect(
-        dbname = "jeux_videos",
-        user = "postgres",
-        password = "louis",
-        host = "localhost",
-        port = "5432"
-    )
+    print(result)
 
-    cur = conn.cursor()
+#     #Connexion à PostgreSQL
+#     conn = psycopg2.connect(
+#         dbname = "jeux_videos",
+#         user = "postgres",
+#         password = "louis",
+#         host = "localhost",
+#         port = "5432"
+#     )
 
-    #Requête SQL pour insérer ou mettre à jour les données
-    upsert_query = """
-    INSERT INTO gestion_jeux.jeux_videos (id_jeux, note_moyenne, nombre_utilisateurs, note_plus_ancienne, note_plus_recente)
-        VALUES (%s, %s, %s, %s, %s)
-        ON CONFLICT (id_jeux) 
-        DO UPDATE SET
-            note_moyenne = EXCLUDED.note_moyenne,
-            nombre_utilisateurs = EXCLUDED.nombre_utilisateurs,
-            note_plus_ancienne = EXCLUDED.note_plus_ancienne,
-            note_plus_rescente = EXCLUDED.note_plus_rescente;
+#     cur = conn.cursor()
 
-
-    """
-
-    for doc in result:
-        cur.execute(upsert_query,(
-            doc["_id"],
-            doc["averageRating"],
-            doc["numUsersRated"],
-            doc["oldestRating"],
-            doc["newestRating"]
-        ))
-
-    #Valider les transactions et fermer la connexion
-    conn.commit()
-    cur.close()
-    conn.close()
-
-if __name__ == "__main__":
-    fetch_and_store_top_games()
+#     #Requête SQL pour insérer ou mettre à jour les données
+#     upsert_query = """
+#     INSERT INTO gestion_jeux.jeux_videos (id_jeux, note_moyenne, nombre_utilisateurs, note_plus_ancienne, note_plus_recente)
+#         VALUES (%s, %s, %s, %s, %s)
+#         ON CONFLICT (id_jeux) 
+#         DO UPDATE SET
+#             note_moyenne = EXCLUDED.note_moyenne,
+#             nombre_utilisateurs = EXCLUDED.nombre_utilisateurs,
+#             note_plus_ancienne = EXCLUDED.note_plus_ancienne,
+#             note_plus_recente = EXCLUDED.note_plus_recente;
 
 
+#     """
+
+#     for doc in result:
+#         cur.execute(upsert_query,(
+#             doc["_id"],
+#             doc["averageRating"],
+#             doc["numUsersRated"],
+#             doc["oldestRating"],
+#             doc["newestRating"]
+#         ))
+
+#     #Valider les transactions et fermer la connexion
+#     conn.commit()
+#     cur.close()
+#     conn.close()
+
+# if __name__ == "__main__":
+#     fetch_and_store_top_games()

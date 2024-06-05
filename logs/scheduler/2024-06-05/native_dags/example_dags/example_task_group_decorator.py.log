@@ -1,0 +1,7 @@
+[2024-06-05T20:58:50.401+0200] {processor.py:161} INFO - Started process (PID=5623) to work on /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-06-05T20:58:50.403+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2024-06-05T20:58:50.405+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:58:50.405+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-06-05T20:58:50.426+0200] {processor.py:840} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-06-05T20:58:50.435+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:58:50.435+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T20:58:50.572+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:58:50.571+0200] {dag.py:3954} INFO - Setting next_dagrun for example_task_group_decorator to 2024-06-04 00:00:00+00:00, run_after=2024-06-05 00:00:00+00:00
+[2024-06-05T20:58:50.764+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.374 seconds
