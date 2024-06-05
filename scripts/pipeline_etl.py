@@ -64,6 +64,8 @@ def fetch_and_store_top_games():
 
     print(result)
 
+fetch_and_store_top_games()
+
 #     #Connexion à PostgreSQL
 #     conn = psycopg2.connect(
 #         dbname = "jeux_videos",
