@@ -468,3 +468,145 @@ File Path                                       PID    Runtime      # DAGs    # 
 /home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  0.21s           2024-06-05T21:07:03
 ================================================================================
 [2024-06-05T23:07:21.499+0200] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-06-07T22:34:57.983+0200] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-06-07T22:34:57.985+0200] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-06-07T22:34:57.986+0200] {manager.py:472} INFO - Checking for new files in /home/louis/GamingDataPipeline/dags every 300 seconds
+[2024-06-07T22:34:57.986+0200] {manager.py:737} INFO - Searching for files in /home/louis/GamingDataPipeline/dags
+[2024-06-07T22:34:57.996+0200] {manager.py:740} INFO - There are 1 files in /home/louis/GamingDataPipeline/dags
+[2024-06-07T22:35:04.580+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  6.30s           2024-06-07T20:35:04
+================================================================================
+[2024-06-07T22:35:49.043+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  0.81s           2024-06-07T20:35:49
+================================================================================
+[2024-06-07T22:36:20.266+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  0.51s           2024-06-07T20:36:20
+================================================================================
+[2024-06-07T22:36:51.707+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  0.31s           2024-06-07T20:36:51
+================================================================================
+[2024-06-07T22:37:22.933+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  0.31s           2024-06-07T20:37:22
+================================================================================
+[2024-06-07T22:37:54.185+0200] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-06-07T22:39:10.841+0200] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-06-07T22:39:10.842+0200] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-06-07T22:39:10.843+0200] {manager.py:472} INFO - Checking for new files in /home/louis/GamingDataPipeline/dags every 300 seconds
+[2024-06-07T22:39:10.844+0200] {manager.py:737} INFO - Searching for files in /home/louis/GamingDataPipeline/dags
+[2024-06-07T22:39:10.848+0200] {manager.py:740} INFO - There are 1 files in /home/louis/GamingDataPipeline/dags
+[2024-06-07T22:39:11.250+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  0.31s           2024-06-07T20:39:11
+================================================================================
+[2024-06-07T22:39:43.332+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  1.13s           2024-06-07T20:39:43
+================================================================================
+[2024-06-07T22:40:13.952+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  0.31s           2024-06-07T20:40:13
+================================================================================
+[2024-06-07T22:40:44.963+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  0.41s           2024-06-07T20:40:44
+================================================================================
+[2024-06-07T22:41:24.370+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  0.31s           2024-06-07T20:41:24
+================================================================================
+[2024-06-07T22:41:56.456+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  0.91s           2024-06-07T20:41:56
+================================================================================
+[2024-06-07T22:42:27.847+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  0.61s           2024-06-07T20:42:27
+================================================================================
+[2024-06-07T22:42:59.128+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  0.31s           2024-06-07T20:42:59
+================================================================================
+[2024-06-07T22:43:29.594+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  0.31s           2024-06-07T20:43:29
+================================================================================
+[2024-06-07T22:44:00.588+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  0.92s           2024-06-07T20:44:00
+================================================================================
+[2024-06-07T22:44:10.865+0200] {manager.py:737} INFO - Searching for files in /home/louis/GamingDataPipeline/dags
+[2024-06-07T22:44:10.868+0200] {manager.py:740} INFO - There are 1 files in /home/louis/GamingDataPipeline/dags
+[2024-06-07T22:44:31.850+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/louis/GamingDataPipeline/dags/etl_dag.py                           1           0  0.52s           2024-06-07T20:44:31
+================================================================================
+[2024-06-07T22:44:43.253+0200] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
