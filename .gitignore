@@ -2,4 +2,3 @@ airflow_venv/
 airflow.cfg
 airflow.db
 webserver_config.py
-capture_ecran.jpg
