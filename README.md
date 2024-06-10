@@ -87,3 +87,6 @@ GamingDataPipeline/
 <p align="center">
   <img src="Capture d’écran 2024-06-06 005457.jpg" alt="résultat" height="300">
 </p>
+
+
+On observe l'intégration de 15 données dans la base de données PostgreSQL, qui constitue notre Data Warehouse. Chaque enregistrement comprend l'ID unique du jeu, la note moyenne attribuée au jeu, la date de la note la plus ancienne et celle de la note la plus récente. Les données sont triées par ordre croissant. Il est possible que les dates de la note la plus ancienne et de la plus récente soient identiques. Cela se produit lorsque, pour un certain jeu (identifié par son ID), tous les avis collectés au cours des six derniers mois ont été soumis à la même date. Dans ce cas, la date de l'avis le plus ancien et celle de l'avis le plus récent seraient les mêmes.
