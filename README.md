@@ -85,7 +85,7 @@ GamingDataPipeline/
 ## Présentation des résultats
 
 <p align="center">
-  <img src="Capture d’écran 2024-06-06 005457.jpg" alt="résultat" height="300">
+  <img src="capture_ecran.jpg" alt="résultat" height="300">
 </p>
 
 
