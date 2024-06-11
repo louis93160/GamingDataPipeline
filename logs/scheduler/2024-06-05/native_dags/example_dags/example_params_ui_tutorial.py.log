@@ -1,7 +1,0 @@
-[2024-06-05T20:59:09.651+0200] {processor.py:161} INFO - Started process (PID=5907) to work on /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
-[2024-06-05T20:59:09.652+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
-[2024-06-05T20:59:09.654+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:59:09.654+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
-[2024-06-05T20:59:09.668+0200] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
-[2024-06-05T20:59:09.821+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:59:09.821+0200] {dag.py:3096} INFO - Sync 1 DAGs
-[2024-06-05T20:59:09.845+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:59:09.845+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
-[2024-06-05T20:59:09.910+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.267 seconds

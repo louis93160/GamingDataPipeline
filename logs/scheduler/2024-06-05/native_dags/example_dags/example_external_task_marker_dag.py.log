@@ -1,8 +1,0 @@
-[2024-06-05T20:59:27.188+0200] {processor.py:161} INFO - Started process (PID=6167) to work on /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
-[2024-06-05T20:59:27.189+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
-[2024-06-05T20:59:27.192+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:59:27.191+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
-[2024-06-05T20:59:27.202+0200] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
-[2024-06-05T20:59:27.357+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:59:27.357+0200] {dag.py:3096} INFO - Sync 2 DAGs
-[2024-06-05T20:59:27.376+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:59:27.376+0200] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
-[2024-06-05T20:59:27.561+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:59:27.560+0200] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
-[2024-06-05T20:59:27.695+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.518 seconds

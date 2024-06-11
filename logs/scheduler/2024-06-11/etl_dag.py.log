@@ -1,0 +1,77 @@
+[2024-06-11T02:17:59.092+0200] {processor.py:161} INFO - Started process (PID=54588) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:17:59.096+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-11T02:17:59.102+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:17:59.101+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:17:59.226+0200] {processor.py:840} INFO - DAG(s) 'fetch_store_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:17:59.252+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:17:59.251+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T02:17:59.288+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:17:59.288+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_store_top_games to 2024-06-10 00:00:00+00:00, run_after=2024-06-11 00:00:00+00:00
+[2024-06-11T02:17:59.322+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.254 seconds
+[2024-06-11T02:24:13.498+0200] {processor.py:161} INFO - Started process (PID=57379) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:24:13.500+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-11T02:24:13.501+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:24:13.501+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:24:13.589+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:24:13.597+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:24:13.597+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T02:24:13.615+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:24:13.615+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-10 00:00:00+00:00, run_after=2024-06-11 00:00:00+00:00
+[2024-06-11T02:24:13.643+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.153 seconds
+[2024-06-11T02:24:46.598+0200] {processor.py:161} INFO - Started process (PID=57786) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:24:46.600+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-11T02:24:46.602+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:24:46.601+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:24:46.704+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:24:46.807+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:24:46.807+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T02:24:46.953+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:24:46.953+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-11 00:00:00+00:00, run_after=2024-06-12 00:00:00+00:00
+[2024-06-11T02:24:46.984+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.394 seconds
+[2024-06-11T02:25:18.050+0200] {processor.py:161} INFO - Started process (PID=58329) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:25:18.053+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-11T02:25:18.057+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:25:18.055+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:25:18.142+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:25:18.161+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:25:18.161+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T02:25:18.181+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:25:18.180+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-11 00:00:00+00:00, run_after=2024-06-12 00:00:00+00:00
+[2024-06-11T02:25:18.212+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.203 seconds
+[2024-06-11T02:26:53.632+0200] {processor.py:161} INFO - Started process (PID=59279) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:26:53.638+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-11T02:26:53.640+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:26:53.640+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:26:53.718+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:26:53.728+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:26:53.727+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T02:26:53.752+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:26:53.752+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-11 00:00:00+00:00, run_after=2024-06-12 00:00:00+00:00
+[2024-06-11T02:26:53.781+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.158 seconds
+[2024-06-11T02:27:24.002+0200] {processor.py:161} INFO - Started process (PID=59693) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:27:24.014+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-11T02:27:24.019+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:27:24.018+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:27:24.289+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:27:24.667+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:27:24.666+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T02:27:24.937+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:27:24.937+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-11 00:00:00+00:00, run_after=2024-06-12 00:00:00+00:00
+[2024-06-11T02:27:24.979+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 1.007 seconds
+[2024-06-11T02:27:55.463+0200] {processor.py:161} INFO - Started process (PID=60196) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:27:55.466+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-11T02:27:55.471+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:27:55.470+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:27:55.598+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:27:55.623+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:27:55.623+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T02:27:55.646+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:27:55.646+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-11 00:00:00+00:00, run_after=2024-06-12 00:00:00+00:00
+[2024-06-11T02:27:55.676+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.238 seconds
+[2024-06-11T02:28:26.168+0200] {processor.py:161} INFO - Started process (PID=60421) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:28:26.176+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-11T02:28:26.179+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:28:26.178+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:28:26.266+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:28:26.288+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:28:26.288+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T02:28:26.333+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:28:26.333+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-11 00:00:00+00:00, run_after=2024-06-12 00:00:00+00:00
+[2024-06-11T02:28:26.360+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.204 seconds
+[2024-06-11T02:28:56.893+0200] {processor.py:161} INFO - Started process (PID=60833) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:28:56.895+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-11T02:28:56.898+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:28:56.898+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:28:56.991+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:28:57.019+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:28:57.018+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T02:28:57.089+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:28:57.089+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-11 00:00:00+00:00, run_after=2024-06-12 00:00:00+00:00
+[2024-06-11T02:28:57.126+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.246 seconds
+[2024-06-11T02:29:27.491+0200] {processor.py:161} INFO - Started process (PID=61065) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:29:27.492+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-11T02:29:27.495+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:29:27.493+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:29:27.645+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:29:27.725+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:29:27.725+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T02:29:27.747+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:29:27.747+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-11 00:00:00+00:00, run_after=2024-06-12 00:00:00+00:00
+[2024-06-11T02:29:27.795+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.312 seconds
+[2024-06-11T02:30:01.407+0200] {processor.py:161} INFO - Started process (PID=61471) to work on /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:30:01.408+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/dags/etl_dag.py for tasks to queue
+[2024-06-11T02:30:01.411+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:30:01.410+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:30:01.494+0200] {processor.py:840} INFO - DAG(s) 'fetch_top_games' retrieved from /home/louis/GamingDataPipeline/dags/etl_dag.py
+[2024-06-11T02:30:01.518+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:30:01.518+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-11T02:30:01.539+0200] {logging_mixin.py:188} INFO - [2024-06-11T02:30:01.539+0200] {dag.py:3954} INFO - Setting next_dagrun for fetch_top_games to 2024-06-11 00:00:00+00:00, run_after=2024-06-12 00:00:00+00:00
+[2024-06-11T02:30:01.568+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/dags/etl_dag.py took 0.170 seconds

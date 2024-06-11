@@ -1,5 +1,0 @@
-[2024-06-05T20:58:31.889+0200] {processor.py:161} INFO - Started process (PID=5346) to work on /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
-[2024-06-05T20:58:31.928+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
-[2024-06-05T20:58:31.946+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:58:31.944+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
-[2024-06-05T20:58:31.976+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
-[2024-06-05T20:58:32.087+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.369 seconds

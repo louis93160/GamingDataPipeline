@@ -1,7 +1,0 @@
-[2024-06-05T20:59:07.030+0200] {processor.py:161} INFO - Started process (PID=5843) to work on /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
-[2024-06-05T20:59:07.043+0200] {processor.py:830} INFO - Processing file /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
-[2024-06-05T20:59:07.068+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:59:07.061+0200] {dagbag.py:540} INFO - Filling up the DagBag from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
-[2024-06-05T20:59:07.137+0200] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
-[2024-06-05T20:59:07.735+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:59:07.734+0200] {dag.py:3096} INFO - Sync 1 DAGs
-[2024-06-05T20:59:07.861+0200] {logging_mixin.py:188} INFO - [2024-06-05T20:59:07.860+0200] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2024-06-05 18:56:00+00:00, run_after=2024-06-05 18:58:00+00:00
-[2024-06-05T20:59:07.943+0200] {processor.py:183} INFO - Processing /home/louis/GamingDataPipeline/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.930 seconds
