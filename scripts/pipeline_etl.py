@@ -1,7 +1,11 @@
 from pymongo import MongoClient
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
+from dotenv import load_dotenv
+import os
 import psycopg2
+
+
 
 
 def fetch_and_store_top_games():
@@ -62,14 +66,23 @@ def fetch_and_store_top_games():
     # Exécuter le pipeline d'agrégation
     result = list(collection.aggregate(pipeline))
 
-   
+    # Charger les variables d'environnement depuis le fichier .env
+    load_dotenv()
+
+    # Récupérer les variables d'environnement
+    dbname = os.getenv('DB_NAME')
+    user = os.getenv('DB_USER')
+    password = os.getenv('DB_PASSWORD')
+    host = os.getenv('DB_HOST')
+    port = os.getenv('DB_PORT')
+
     #Connexion à PostgreSQL
     conn = psycopg2.connect(
-        dbname = "jeux_videos",
-        user = "postgres",
-        password = "louis",
-        host = "localhost",
-        port = "5432"
+        dbname = "dbname",
+        user = "user",
+        password = "password",
+        host = "host",
+        port = "port"
     )
 
     cur = conn.cursor()
