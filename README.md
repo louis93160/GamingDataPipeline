@@ -1,6 +1,6 @@
 <h2 align="center" style="font-size: 20px;">Mise en place d'un pipeline ETL depuis une base MongoDB</h2>
 
-<div align="center" style="font-size: 22px;">Pojet Data Engineering - Louis Duvieux</div>
+<div align="center" style="font-size: 22px;">Projet Data Engineering - Louis Duvieux</div>
 
 <br><br>
 
